@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'twitter-blue': '#1DA1F2'
+        'twitter-blue': '#1DA1F2',
+        'hover-color': 'rgb(247, 249, 249)'
       },
       width: {
         '255px': '255px',
