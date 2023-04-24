@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import { FiTwitter } from 'react-icons/fi'
 import { BiHomeCircle } from 'react-icons/bi'
 import { CiHashtag, CiMail, CiViewList, CiUser, CiCircleMore } from 'react-icons/ci'
