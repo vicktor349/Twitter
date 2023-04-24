@@ -9,16 +9,23 @@ module.exports = {
     extend: {
       colors: {
         'twitter-blue': '#1DA1F2',
-        'hover-color': 'rgb(247, 249, 249)'
+        'hover-color': 'rgba(15, 20, 25, 0.1)',
+        'tweet-button': 'rgb(29, 155, 240)',
+        'hover-tweet-button': 'rgb(26, 140, 216)'
       },
       width: {
         '255px': '255px',
         '228px': '228px',
-        '30px': '30px'
+        '30px': '30px',
+        '27px': '27px',
+        '23px': '23px',
+        '22px': '22px',
+        '21px': '21px'
       },
       height: {
         '50px': '50px',
-        '30px': '30px'
+        '30px': '30px',
+        '900px': '900px'
       },
       padding: {
         '15px': '15px',
