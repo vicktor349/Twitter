@@ -48,7 +48,6 @@ const Navbar = () => {
                     </div>
                     <div className='flex justify-center items-center mt-20 text-base px-3 py-2 cursor-pointer rounded-[99px] hover:bg-hover-color'>
                         <Avatar src={profilePicture} alt="it's me" radius='xl' />
-                        {console.log(profilePicture)}
                         <div className='ml-2 -mt-1'>
                             <p className='font-bold'>Jerome Bell</p>
                             <p className='font-lighter text-[#5B7083]'>@afonsoinocente</p>
