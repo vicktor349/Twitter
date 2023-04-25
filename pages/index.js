@@ -1,11 +1,5 @@
 import Head from 'next/head'
 import { Divider } from '@mantine/core'
-import { IoImageOutline } from 'react-icons/io5'
-import { AiOutlineGif } from 'react-icons/ai'
-import { BiPoll } from 'react-icons/bi'
-import { SlEmotsmile } from 'react-icons/sl'
-import { MdOutlineSchedule } from 'react-icons/md'
-import Image from 'next/image'
 import { Avatar } from '@mantine/core'
 
 
@@ -20,8 +14,7 @@ export default function Home() {
         <div>
           <p className='font-bold mt-2'>Home</p>
           <div className='-ml-8'>
-            <Divider size='sm' className=' mt-6' />
-
+            <Divider className='mt-6' />
             {/* Tweet Modal */}
             <div>
               <section className="w-full flex px-3 pt-2">
@@ -54,6 +47,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <Divider className='-ml-8 mt-6' />
       </main>
       <div className="absolute -mt-3 h-full border-l border-gray-300 ml-[57.4rem]"></div>
     </>

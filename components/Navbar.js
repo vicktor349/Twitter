@@ -5,7 +5,7 @@ import { CiHashtag, CiMail, CiViewList, CiUser, CiCircleMore } from 'react-icons
 import { BsBell, BsBookmark } from 'react-icons/bs'
 import { TfiMore } from 'react-icons/tfi'
 import { Avatar } from '@mantine/core';
-import { killua } from '../public/images/Avatar/Killua.jpg'
+import profilePicture from '../public/images/Avatar/Profile.png'
 import Link from 'next/link'
 
 const Navbar = () => {
@@ -47,7 +47,8 @@ const Navbar = () => {
                         <p className='text-white font-bold text-center text-sm'>Tweet</p>
                     </div>
                     <div className='flex justify-center items-center mt-20 text-base px-3 py-2 cursor-pointer rounded-[99px] hover:bg-hover-color'>
-                        <Avatar src={killua} alt="it's me" radius='xl' />
+                        <Avatar src={profilePicture} alt="it's me" radius='xl' />
+                        {console.log(profilePicture)}
                         <div className='ml-2 -mt-1'>
                             <p className='font-bold'>Jerome Bell</p>
                             <p className='font-lighter text-[#5B7083]'>@afonsoinocente</p>

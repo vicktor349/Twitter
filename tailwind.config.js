@@ -14,6 +14,8 @@ module.exports = {
         'hover-tweet-button': 'rgb(26, 140, 216)'
       },
       width: {
+        '32rem': '32rem',
+        '598px': '598px',
         '255px': '255px',
         '228px': '228px',
         '30px': '30px',
